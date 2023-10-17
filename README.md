@@ -1,6 +1,6 @@
-This is a landing page of the MET. There're header with menu, navigation and main title; main block with some sections that represent work schedule, exhibitions with small description. There're contacts and addresses of museums and form to send little message also on the page. There's picture as footer of the landing.
+This is a landing page of the MET. There're header with menu, navigation and main title; main block with some sections presenting opening hours, exhibitions with small descriptions. The page also has contacts and addresses of museums and form to send small messages. There's a picture as footer of the landing page.
 
-In this landing have been used such technologies as HTML, CSS, Sass, BEM.
+I used such technologies as HTML, CSS, Sass, BEM to create this landing page.
 
 Figma layout:
     - [Figma](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET?type=design&node-id=8590-29&mode=design)
