@@ -27,6 +27,7 @@
   &__photo-container {
     max-height: 320px;
     margin-bottom: 24px;
+    overflow: hidden;
 
     &--1 {
       @include grid(1, 2, 1, 5, 1, 9);

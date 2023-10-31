@@ -10,24 +10,29 @@
     font-size: 14px;
     line-height: 20px;
     color: $main-dark;
-    border: none;
+    border: 1px solid #d5d7de00;
     background-color: #f8f8fa;
-    
+    transition: border-color $transition-duration;
+
+    &:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset;
+    }
+
     &::placeholder {
       font-size: 14px;
       line-height: 20px;
       color: #7e7e83;
     }
-    
+
     &:hover {
-      border: 1px solid #d5d7de;
+      border-color: #d5d7de;
     }
-    
+
     &:focus {
-      border: 1px solid $main-dark;
+      border-color: $main-dark;
       outline: none;
     }
-    
+
     &--textarea {
       margin-bottom: 32px;
       height: 144px;
