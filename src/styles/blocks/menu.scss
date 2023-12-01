@@ -8,7 +8,8 @@
   &__content {
     box-sizing: border-box;
     padding: $phoneHeaderTopPadding 0;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: scroll;
 
     @include onTablet {
       padding: $desktopHeaderTopPadding 0;
