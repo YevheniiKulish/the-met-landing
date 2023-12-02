@@ -8,8 +8,8 @@
     "start": "parcel serve /Users/SvetaZhezherun/Documents/Projects/the-met-landing/src/index.html  --out-dir /Users/SvetaZhezherun/Documents/Projects/the-met-landing/dist --open --port 8080",
     "lint": "mate-scripts lint",
     "test:only": "mate-scripts test",
-    "build": "mate-scripts build",
-    "deploy": "mate-scripts deploy",
+    "build": "parcel build /Users/SvetaZhezherun/Documents/Projects/the-met-landing/src/index.html  --out-dir /Users/SvetaZhezherun/Documents/Projects/the-met-landing/dist --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
