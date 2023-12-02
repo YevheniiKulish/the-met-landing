@@ -1,4 +1,6 @@
 .menu {
+  overflow: auto;
+  height: 100vh;
   background-color: $accent-main;
 
   &__container {
@@ -8,7 +10,6 @@
   &__content {
     box-sizing: border-box;
     padding: $phoneHeaderTopPadding 0;
-    height: 100vh;
 
     @include onTablet {
       padding: $desktopHeaderTopPadding 0;
